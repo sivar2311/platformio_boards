@@ -40,6 +40,9 @@
     "arduino",
     "espidf"
   ],
+  "platforms" : [
+    "espressif32"
+  ],  
   "name": "Freenove ESP32-S3 WROOM N8R8 (8MB Flash / 8MB PSRAM)",
   "upload": {
     "flash_size": "8MB",
