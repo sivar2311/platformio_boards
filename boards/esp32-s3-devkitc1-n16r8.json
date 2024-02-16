@@ -40,6 +40,9 @@
     "arduino",
     "espidf"
   ],
+  "platforms" : [
+    "espressif32"
+  ],  
   "name": "Espressif ESP32-S3-DevKitC-1-N16R8V (16 MB QD, 8MB PSRAM)",
   "upload": {
     "flash_size": "16MB",
