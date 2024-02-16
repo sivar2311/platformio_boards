@@ -35,6 +35,9 @@
     "arduino",
     "espidf"
   ],
+  "platforms" : [
+    "espressif32"
+  ],  
   "name": "BPI-Centi-S3",
   "upload": {
     "flash_size": "8MB",
