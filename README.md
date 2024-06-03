@@ -20,6 +20,10 @@ pio project init -b bpi-centi-s3 --ide vscode
 ```
 
 ```
+pio project init -b esp32-s3-devkitc1-n8r8 --ide vscode
+```
+
+```
 pio project init -b esp32-s3-devkitc1-n16r8 --ide vscode
 ```
 
