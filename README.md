@@ -7,6 +7,7 @@ C
       |--.platformio
           |--boards
              |- bpi-centi-s3.json
+             |- esp32-s3-devkitc1-n8r8.json
              |- esp32-s3-devkitc1-n16r8.json
              |- esp32-s3-fh4r2.json
              |- feenove-esp32-s3-n8r8.json
