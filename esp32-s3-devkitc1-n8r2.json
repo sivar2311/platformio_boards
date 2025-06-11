@@ -1,8 +1,8 @@
 {
   "build": {
     "arduino": {
-      "partitions": "default_4MB.csv",
-      "memory_type": "qio_opi"
+      "partitions": "default_8MB.csv",
+      "memory_type": "qio_qspi"
     },
     "core": "esp32",
     "extra_flags": [
@@ -14,7 +14,7 @@
     "f_cpu": "240000000L",
     "f_flash": "80000000L",
     "flash_mode": "qio",
-    "psram_type": "opi",
+    "psram_type": "qio",
     "hwids": [
       [
         "0x303A",
@@ -42,11 +42,11 @@
   "platforms": [
     "espressif32"
   ],
-  "name": "Espressif ESP32-S3-DevKitC-1-N8R8 (4 MB Flash Quad, 8 MB PSRAM Octal)",
+  "name": "Espressif ESP32-S3-DevKitC-1-N8R2 (8 MB Flash Quad, 2 MB PSRAM quad)",
   "upload": {
     "flash_size": "8MB",
     "maximum_ram_size": 327680,
-    "maximum_size": 4194304,
+    "maximum_size": 8388608,
     "require_upload_port": true,
     "speed": 921600
   },
